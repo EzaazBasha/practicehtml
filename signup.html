@@ -1,12 +1,24 @@
 <html>
     <head>
+        <style>
+            body{
+                background-color: blanchedalmond;
+            }
+            h1{
+                color :red;
+            }
+            #b1{
+                text-align:center;
+                color: blue;
+            }
+        </style>
         <title>
             SignUp
         </title>
     </head>
     <body>
         <h1>Sign Up to Our Service</h1>
-        <b>Fill Out the form to sign up to our service</b><br><br>
+        <b id="b1">Fill Out the form to sign up to our service</b><br><br>
         <form>
             <label>Name: </label>
             <input type="text" placeholder="First Name" required maxlength="15" size="20">
@@ -34,7 +46,7 @@
             <br><br>
             <input type="checkbox">Yes, I accept
             <label>Terms and conditions</label>
-            <br><br><button>Signup</button>
+            <br><br><button id="btn" style="color:blue;">Signup</button>
         </form>
     </body>
 </html>
