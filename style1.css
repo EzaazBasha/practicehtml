@@ -1,11 +1,56 @@
-#main_Heading{
-    text-align: center;
-    color:rgb(11, 11, 11)
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    padding: 20px;
+    background-color: #f4f4f4;
 }
-body{
-    margin: 35;
-    margin-top: 35;
-    margin-right: 35;
-    font-family: sans-serif;
-    border-top-left-radius: 1cm;
+
+h1 {
+    text-align: center;
+    color: #333;
+    text-decoration: underline;
+}
+
+img {
+    display: block;
+    margin: 10px auto;
+    border-radius: 50%;
+    border: 2px solid #555;
+}
+
+p, li {
+    color: #444;
+    font-size: 16px;
+}
+
+b {
+    color: #222;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+ol {
+    margin-left: 40px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background: #ccc;
+    margin: 20px 0;
+}
+
+a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
