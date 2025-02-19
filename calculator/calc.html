@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="test.js">
+    <script src="test.js"> </script>
 </head>
 <div class="main">
     <body>
@@ -25,38 +25,38 @@
             <td><button >MRC</button></td>
             <td><button>M-</button></td>
             <td><button >M+</button></td>
-            <td><button class="op">÷</button></td>
+            <td><button class="op" onclick="display('/')" value="/">÷</button></td>
         </tr>
 
          <tr>
-            <td><button>%</button></td>
-             <td ><button>1</button></td>
-             <td><button>2</button></td>
-             <td><button>3</button></td>
-             <td><button class="op">X</button></td>
+            <td><button onclick="display('%')" value="%">%</button></td>
+            <td><button onclick="display(1)" value="1">1</button></td>
+            <td><button onclick="display(2)" value="2">2</button></td>
+            <td><button onclick="display(3)" value="3">3</button></td>
+            <td><button class="op">X</button></td>
          </tr>
      
          <tr>
-            <td><button>√</button></td>
-             <td><button>4</button></td>
-             <td><button>5</button></td>
-             <td><button>6</button></td>
+            <td><button onclick="display('^')" value="^">^</button></td>
+            <td><button onclick="display(4)" value="4">4</button></td>
+            <td><button onclick="display(5)" value="5">5</button></td>
+            <td><button onclick="display(6)" value="6">6</button></td>
              
-             <td><button class="op">-</button></td>
+            <td><button class="op" onclick="display('-')" value="-">-</button></td>
          </tr>
      
          <tr>
-            <td><button id="ac">C</button></td>
-             <td><button>7</button></td>
-             <td><button>8</button></td>
-             <td><button>9</button></td>
-             <td rowspan="2"><button class="op" id="plus">+</button></td>
+            <td><button id="ac" onclick="display(0)" value="0">C</button></td>
+             <td><button onclick="display(7)" value="7">7</button></td>
+             <td><button onclick="display(8)" value="8">8</button></td>
+             <td><button onclick="display(9)" value="9">9</button></td>
+             <td rowspan="2"><button class="op" id="plus" onclick="display('+')" value="+">+</button></td>
          </tr>
      
          <tr>
-             <td><button id="ac">AC</button></td>
-             <td><button>0</button></td>
-             <td><button class="op">.</button></td>
+             <td><button id="ac" onclick="display(null)">AC</button></td>
+             <td><button onclick="display(0)" value="0">0</button></td>
+             <td><button class="op" onclick="display('.')" value=".">.</button></td>
              <td><button class="op">=</button></td>
             
          </tr>
