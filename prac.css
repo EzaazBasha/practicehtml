@@ -1,0 +1,39 @@
+*{
+    border: 0;
+    padding: 0;
+    background-color: black;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.div1{
+    background-color: red;
+    height: 800px;
+    width: 800px;
+    top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.div2{
+    background-color: rgb(136, 255, 0);
+    height: 400px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.div3{
+    background-color: rgb(4, 0, 255);
+    height: 200px;
+    width: 200px;
+}
